@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.author       = { "TwinCoders" => "info@twincoders.com" }
   s.platform     = :ios, "10.0"
   s.swift_versions = ['4.0', '4.2', '5.0']
-  s.source       = { :git => "https://github.com/TwinPush/ios-sdk.git", :tag => "v#{s.version}" }
+  s.source       = { :git => "https://github.com/TwinPush/twinpush-ios-receipt-extension.git", :tag => "v#{s.version}" }
 
   # Source configuration
   s.source_files  = "TPNotificationReceiptService.swift"
