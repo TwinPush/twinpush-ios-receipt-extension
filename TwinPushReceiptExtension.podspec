@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   # Meta data
   s.name         = "TwinPushReceiptExtension"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "TwinPushReceiptExtension is a companion library to the TwinPush SDK that adds notification receipts to deliveries sent from TwinPush"
   s.homepage     = "http://twinpush.com"
   s.license      = { :type => "MIT", :file => "LICENSE" }
