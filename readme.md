@@ -41,7 +41,7 @@ end
 target 'MyAppNotificationExtension' do
   use_frameworks!
 
-  pod TwinPushReceiptExtension
+  pod 'TwinPushReceiptExtension'
 end
 ```
 
