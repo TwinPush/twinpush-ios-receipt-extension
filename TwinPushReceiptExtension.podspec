@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.version      = "1.0.0"
   s.summary      = "TwinPushReceiptExtension is a companion library to the TwinPush SDK that adds notification receipts to deliveries sent from TwinPush"
   s.homepage     = "http://twinpush.com"
-  s.license      = { :type => "MIT", :file => "../LICENSE" }
+  s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "TwinCoders" => "info@twincoders.com" }
   s.platform     = :ios, "10.0"
   s.swift_versions = ['4.0', '4.2', '5.0']
