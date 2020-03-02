@@ -73,7 +73,7 @@ Once installed, we can go back to the `NotificationService` class created earlie
 
 - (instancetype)init {
     if (self = [super init]) {
-        self.receiptService = [[TPNotificationReceiptService alloc] initWithAppId:@"MY_APP_ID" subdomain:@"TP_SUBDOMAIN"];
+        self.receiptService = [[TPNotificationReceiptService alloc] initSubdomain:@"TP_SUBDOMAIN"];
     }
     return self;
 }
@@ -101,7 +101,7 @@ import TwinPushReceiptExtension // Exclude this import if not using CocoaPods
 
 class NotificationService: UNNotificationServiceExtension {
 
-    let receiptService = TPNotificationReceiptService(appId: "MY_APP_ID", subdomain: "TP_SUBDOMAIN")
+    let receiptService = TPNotificationReceiptService(subdomain: "TP_SUBDOMAIN")
 
     override func didReceive(_ request: UNNotificationRequest, withContentHandler contentHandler: @escaping (UNNotificationContent) -> Void) {
         
